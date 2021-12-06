@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    input {
+        width: 50vw;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        border: 2px solid #4b847d;
+    }
+    button {
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+        border: 2px solid #4b847d;
+        background: #4b847d;
+        color: #fff;
+    }
+}

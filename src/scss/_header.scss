@@ -1,0 +1,28 @@
+.header {
+    background: #f1eee9;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        width: 15rem;
+        background: #316c6a;
+        background: url("../images/pexels-white.png");
+        background-size: cover;
+    }
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style-type: none;
+        li {
+            padding: 1.5rem 1rem;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #316c6a;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

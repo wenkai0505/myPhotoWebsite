@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+html {
+    font-size: 10px;
+}
+
+@import "./header";
+@import "./homepage";
+@import "./search";
+@import "./photoitem.scss";
+@import "./footer";
+@import "./topBanner";

@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.header {
+  background: #f1eee9;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  width: 15rem;
+  background: #316c6a;
+  background: url("../images/pexels-white.png");
+  background-size: cover;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.header ul li {
+  padding: 1.5rem 1rem;
+}
+
+.header ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #316c6a;
+  font-size: 1.5rem;
+}
+
+.homepage {
+  min-height: 800px;
+}
+
+.homepage .topBanner {
+  height: 60vh;
+  background: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.homepage .content {
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.homepage .btnRow {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.homepage .btnRow .more {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+}
+
+.search input {
+  width: 50vw;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border: 2px solid #4b847d;
+}
+
+.search button {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border: 2px solid #4b847d;
+  background: #4b847d;
+  color: #fff;
+}
+
+.photoItem {
+  width: 300px;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.photoItem .name {
+  font-size: 1.5rem;
+  color: #1e524d;
+}
+
+.photoItem .photoBg {
+  width: 300px;
+  height: 250px;
+  background: #eee;
+  margin: 0.5rem 0;
+  overflow: hidden;
+}
+
+.photoItem .photoBg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.photoItem .photoBg img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.photoItem .downLink {
+  color: #29b36e;
+}
+
+.photoItem .downLink:hover {
+  color: #1e524d;
+}
+
+.footer {
+  background: #d8c3a8;
+  color: #000;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.banner .black {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  pointer-events: none;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+/*# sourceMappingURL=default.css.map */
